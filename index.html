@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars Characters | Guilherme Henrique</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/millennium-falcon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <a href="./index.html">
+            <div class="logo">
+                <img src="./assets/star-wars-logo.png" alt="logo" class="logo-img"/>
+                <span class="logo-text">Characters</span>
+            </div>
+        </a>
+
+        <div class="social-media">
+            <a href="https://wa.me/qr/VJO3MR273QFHI1" target="_blank">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="https://www.instagram.com/gui.hmoura?igsh=a3ZwZ3ptaGpqdm9q" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://github.com/gui-hmm" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/guilherme-henrique-a654a2205" target="_blank">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+        </div>
+    </header>
+    
+    <div class="main-container">
+
+        <h2>Conheca todos os personagens de Star Wars em um so lugar</h2>
+
+        <div class="main-content" id="main-content"></div>
+
+        <div class="modal" id="modal" onclick="hideModal()">
+            <div class="modal-content" id="modal-content"></div>
+        </div>
+        
+        <div class="buttons">
+            <button id="back-button" disabled>Anterior</button>
+            <button id="next-button" disabled>Próxima</button>
+        </div>
+    </div>
+
+    <footer>
+        <p class="footer-logo">Star Wars Characters</p>
+        <p class="copyrigth">Desenvolvido por &copy; Guilherme Henrique</p>
+    </footer>
+    
+    <script src="https://kit.fontawesome.com/dfe0977764.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
